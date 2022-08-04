@@ -1,5 +1,6 @@
 * {
     font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
 }
 
 .container-fluid {
@@ -10,5 +11,47 @@
 }
 
 #order-component {
-    width: 450px;
+    width: 400px;
+    height: 625px;
+    box-shadow: 0 15px 30px rgba(56, 41, 224, 0.15);
+}
+
+h3,
+#product,
+#cancelOrder:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+p,
+#price,
+a {
+    color: hsl(224, 23%, 55%);
+}
+
+.bg-paleBlue {
+    background-color: hsl(225, 100%, 98%);
+}
+
+#paymentButton {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 14px;
+    box-shadow: 0 15px 10px rgba(56, 41, 224, 0.15);
+}
+
+#paymentButton:hover {
+    background-color: hsl(245, 83%, 68%);
+}
+
+a {
+    font-size: 14px;
+}
+
+#change {
+    color: hsl(245, 75%, 52%);
+}
+
+#change:hover {
+    color: hsl(245, 83%, 68%);
+    text-decoration: none;
 }
