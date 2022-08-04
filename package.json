@@ -6,7 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ir4M/order-summary-component-main.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ir4M/order-summary-component-main/issues"
+  },
+  "homepage": "https://github.com/ir4M/order-summary-component-main#readme"
 }
